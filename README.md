@@ -15,6 +15,24 @@ will starve? (The aim is to avoid deadlocks).
 * All the thread are going to be executed by the executor service
 * We are able to avoid deadlocks via using tryLock() 
 
+## Process
+```
+while(true) { 
+    // Initially, thinking about life, universe, and everything
+    think();
+
+    // Take a break from thinking, hungry now
+    pick_up_left_fork();
+    pick_up_right_fork();
+    eat();
+    put_down_right_fork();
+    put_down_left_fork();
+
+    // Not hungry anymore. Back to thinking!
+}
+```
+
+
 ## Output 
 
 ```
