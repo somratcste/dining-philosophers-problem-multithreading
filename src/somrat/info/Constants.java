@@ -1,6 +1,7 @@
 package somrat.info;
 
 public class Constants {
+
     private Constants() {}
 
     public static final int NUMBER_OF_PHILOSPHERS = 5;
